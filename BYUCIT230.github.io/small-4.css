@@ -1,0 +1,26 @@
+body {
+	background-color: #98878F;
+	font-family: Arial, Helvetica, sans-serif; 
+	text-align: center;
+}
+
+h2 {
+	margin: 0px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+header, ul{
+	margin: 10px auto;
+	background-color: #494E6B;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
+	list-style-type: none;
+}
+
+header img {
+    width: 100px; height: 98px; float: left;
+	vertical-align: middle;
+}
