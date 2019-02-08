@@ -1,7 +1,3 @@
-html {
-	height: 100em;
-}
-
 body {
 	background-color: #98878F;
 	text-align: center;
@@ -15,10 +11,6 @@ h2 {
 	margin: 12px auto;
 	font-family: 'Staatliches', cursive;
 	font-size: 20px;
-}
-
-h3 {
-	margin: 12px auto;
 }
 
 header {
@@ -63,4 +55,40 @@ header img {
     width: 100px; height: 98px;
 	vertical-align: middle;
 	float: left;
+}
+
+main {
+	margin: 0px auto;
+}
+
+h3 {
+	margin: 12px auto;
+}
+
+.weather col {
+	margin: 12px auto;
+	position: relative;
+}
+
+main img {
+	width: 1200px;
+	max-height: 450px;
+	position: inherit;
+}
+
+h4 {
+	text-decoration: underline;
+}
+.stats {
+	background: rgb(108, 123, 129);
+	border: rgb(5, 2, 2);
+	position: absolute;
+	top: 15rem;
+	right: 68rem;
+}
+
+content img {
+	width: 800px;
+	height: 300px;
+	position: relative;
 }
