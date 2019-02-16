@@ -65,15 +65,13 @@ h3 {
 	margin: 12px auto;
 }
 
-.weather col {
-	margin: 12px auto;
-	position: relative;
+
+main figure.weather {
+	width: 50px;
 }
 
-main img {
-	max-width: 412px;
-	max-height: 450px;
-	position: inherit;
+#main figure.weather img {
+	width: 100%;
 }
 
 h4 {
