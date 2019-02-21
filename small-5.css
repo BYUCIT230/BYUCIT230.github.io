@@ -1,8 +1,3 @@
-body {
-	background-color: #98878F;
-	text-align: center;
-}
-
 h1 {
 	font-family: 'Staatliches', cursive;
 }
@@ -57,17 +52,21 @@ header img {
 	float: left;
 }
 
-main {
-	margin: 0px auto;
-}
 
 h3 {
 	margin: 12px auto;
 }
 
+main {
+	background-color: #98878F;
+	text-align: center;
+	max-width: 400px;
+	max-height: 400px;
+}
 
 main figure.weather {
 	width: 50%;
+	border:	1px, red;
 }
 
 #main figure.weather img {
