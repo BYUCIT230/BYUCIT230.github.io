@@ -57,9 +57,11 @@ h3 {
 	margin: 12px auto;
 }
 
-main {
+body {
 	background-color: #98878F;
 	text-align: center;
+}
+main {
 	max-width: 400px;
 	max-height: 400px;
 }
