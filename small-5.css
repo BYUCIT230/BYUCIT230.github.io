@@ -62,8 +62,8 @@ body {
 	text-align: center;
 }
 main {
-	max-width: 800px;
-	max-height: 400px;
+	padding: 0% 2%;
+	min-height: 10rem;
 }
 
 main figure.weather {
