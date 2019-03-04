@@ -1,0 +1,16 @@
+main {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    border-color: #7fb9c2;
+}
