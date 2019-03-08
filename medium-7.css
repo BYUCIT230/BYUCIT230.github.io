@@ -1,0 +1,11 @@
+@media (min-width: 45em) {
+	.navigation li:first-child { 
+		display: none;	
+	}
+	.navigation li { 
+		display: block; flex: 1 1 auto; 
+	}
+	.navigation, .container { 
+		flex-direction: row; 
+	}
+}
