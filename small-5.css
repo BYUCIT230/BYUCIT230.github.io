@@ -36,11 +36,6 @@ li a {
 	text-decoration: none;
 }
 
-li a.active {
-	background-color: rgb(143, 10, 44);
-	color: white;
-  }
-
   li a:hover:not(.active) {
 	background-color: #111;
 	color: white;
@@ -68,9 +63,10 @@ main {
 
 main figure.weather {
 	width: 50%;
+	margin: 0 0 0 2%;
 }
 
-#main figure.weather img {
+main figure.weather img {
 	width: 100%;
 }
 
@@ -84,3 +80,22 @@ h4 {
 	top: 15rem;
 	right: 68rem;
 }
+
+.navigation li { 
+	display: none; 
+}
+
+.navigation li:first-child { 
+	display: block; 
+}
+
+.navigation li a { 
+	display: block;
+	color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+}
+
+.responsive li { 
+	display: block; 
+}
+
