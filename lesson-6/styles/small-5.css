@@ -1,0 +1,87 @@
+h1 {
+	font-family: 'Staatliches', cursive;
+}
+
+h2 {
+	margin: 12px auto;
+	font-family: 'Staatliches', cursive;
+	font-size: 20px;
+}
+
+header {
+	margin: 12px auto;
+	background-color: #494E6B;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+}
+
+ul {
+	margin: 0;
+	padding-left: 450px;
+	padding-right: 300px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #192231;
+}
+
+li {
+	float: left; 
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 12px 14px;
+	text-align: left;	
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: rgb(143, 10, 44);
+	color: white;
+  }
+
+  li a:hover:not(.active) {
+	background-color: #111;
+	color: white;
+  }
+
+header img {
+    width: 100px; height: 98px;
+	vertical-align: middle;
+	float: left;
+}
+
+
+h3 {
+	margin: 12px auto;
+}
+
+body {
+	background-color: #98878F;
+	text-align: center;
+}
+main {
+	padding: 0% 2%;
+	min-height: 10rem;
+}
+
+main figure.weather {
+	width: 50%;
+	margin: 0 0 0 2%;
+}
+
+main figure.weather img {
+	width: 100%;
+}
+
+h4 {
+	text-decoration: underline;
+}
+.stats {
+	background: rgb(108, 123, 129);
+	border: rgb(5, 2, 2);
+	position: absolute;
+	top: 15rem;
+	right: 68rem;
+}

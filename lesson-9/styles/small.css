@@ -1,0 +1,31 @@
+main {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    max-width: 66rem;
+}
+
+.container > section img {
+    width: 50%;
+    height: auto;
+}
+
+.container > section {
+    background: #ddd;
+    border: 1px solid #bbb;
+    overflow: auto;
+    margin-right: 2px;
+    padding: 1rem;
+}
