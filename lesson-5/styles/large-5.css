@@ -2,3 +2,9 @@ body {
 	background-color: #98878F;
 	text-align: center;
 }
+
+@media only screen and (min-width: 768px) {
+    [class*="html"] {
+        width: auto;
+    }
+}
