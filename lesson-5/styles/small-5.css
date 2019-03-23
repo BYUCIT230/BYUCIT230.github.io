@@ -31,6 +31,7 @@ ul {
 
 li {
 	float: left; 
+	border-right: 1px solid #bbb;
 }
 
 li a {
@@ -71,8 +72,8 @@ h3 {
 }
 
 main img {
-	width: 1200px;
-	max-height: 450px;
+	max-width: 85%;
+	height: auto;
 	position: inherit;
 }
 
@@ -83,6 +84,56 @@ h4 {
 	background: rgb(108, 123, 129);
 	border: rgb(5, 2, 2);
 	position: absolute;
-	top: 15rem;
+	top: 17rem;
 	right: 68rem;
+}
+
+@media only screen and (max-width: 768px) {
+	[class*="html"] {
+			width: 100%;
+			}
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+li a, .Menubtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .Menu:hover .Menubtn {
+  background-color: red;
+}
+
+li.Menu {
+  display: inline-block;
+}
+
+.Menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Menu-content a:hover {background-color: #f1f1f1}
+
+.Menu:hover .Menu-content {
+  display: block;
 }
