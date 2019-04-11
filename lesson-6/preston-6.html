@@ -4,9 +4,14 @@
         <title>Weather Site</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Collin Tuck"> 
-        <link rel="stylesheet" href="https://byucit230.github.io/small-5.css"> 
+        <meta name="author" content="Collin Tuck">
+        <meta name="description" content="Weather Site for BYU CIT230">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small-6.css">
+        <link rel="stylesheet" href="styles/large-6.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Staatliches">
+        <link rel="stylesheet" href="scripts/hamburger.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
         <body>
             <header> 
@@ -15,23 +20,36 @@
                             <h1>Weather Analysis</h1>
                             <h2>Your guide for local weather forecasts.</h2>
                             <nav>
-                                <div data-role="navbar" class="navbar" role="navigation"> 
+                                <div class="topnav" id="navigation"> 
                                     <ul>   
                                         <li><a class="active" href="#home">Home</a></li>
                                         <li><a href="#Preston">Preston</a></li>    
                                         <li><a href="#SodaSprings">Soda Springs</a></li>    
                                         <li><a href="#FishHaven">Fish Haven</a></li>    
                                         <li><a href="#StormCenter">Storm Center</a></li>    
-                                        <li><a href="#Gallery">Gallery</a></li>       
+                                        <li><a href="#Gallery">Gallery</a></li>
+                                        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                            <i class="fa fa-bars"></i></a></li>   
                                     </ul>    
                                 </div>           
                             </nav>
             </header>
                 <main>
                     <h3>Preston Idaho</h3>
-                        <figure class="weather">
-                            <img src="https://raw.githubusercontent.com/BYUCIT230/BYUCIT230.github.io/master/cit230_image_franklinOriginal.jpg" sizes="50vw" alt="Hero Image">
-                        </figure>
-                </main>               
-        </body> 
+                        <div class="weather column">
+                            <img src="https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/201409-w-worlds-prettiest-coastal-towns-camden-maine.jpg?itok=3yywtorM" alt="Town Image">
+                                <div class="stats">
+                                    <p>Current: Mostly Cloudy</p>
+                                    <p>High: 42°</p>
+                                    <p>UV Index: 3 0f 10</p>
+                                    <p>Humidity: 49%</p>
+                                    <p>Wind: NE 9mph</p>
+                                </div>
+                        </div>
+                    <br><br><br>
+                        <div data-role="forecast">
+                            <img src="https://slideplayer.com/slide/5308949/17/images/5/Five%20Day%20Weather%20Forecast.jpg" alt="Forecast">
+                        </div>
+                </main>        
+        </body>
 </html>
