@@ -1,0 +1,98 @@
+body {
+	background-color: rgb(9, 70, 94);
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Muli', cursive;
+}
+
+h2 {
+	margin: 12px auto;
+	font-family: 'Muli', cursive;
+	font-size: 20px;
+}
+
+header {
+	margin: 12px auto;
+	background-color: rgb(50, 115, 131);
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+}
+
+ul {
+	margin: 0;
+	padding-left: 450px;
+	padding-right: 300px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: rgb(22, 62, 80);
+}
+
+li {
+	float: left; 
+    border-right: 1px solid #bbb;
+    text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 12px 14px;
+	text-align: left;	
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: rgb(143, 10, 44);
+	color: white;
+  }
+
+  li a:hover:not(.active) {
+	background-color: #111;
+	color: white;
+	}
+
+main {
+	margin: 0px auto;
+}
+
+h3 {
+	margin: 12px auto;
+}
+
+figure {
+	float: center;
+	flex-flow: column;
+	padding: 5px;
+	max-width: 640px;
+	margin: auto;
+}
+
+.Temple img {
+	max-width: 640px;
+	max-height: 480px;
+}
+
+figcaption {
+	background-color: #222;
+	color: #fff;
+	font: italic smaller sans-serif;
+	padding: 3px;
+	text-align: center;
+}
+
+h4 {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+	[class*="html"] {
+			width: 100%;
+			}
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}

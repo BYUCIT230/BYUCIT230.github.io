@@ -1,0 +1,10 @@
+body {
+	background-color: #87CEEB;
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    [class*="html"] {
+        width: auto;
+    }
+}
