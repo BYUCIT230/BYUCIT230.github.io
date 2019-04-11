@@ -1,0 +1,116 @@
+body {
+	background-color: #98878F;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Staatliches', cursive;
+}
+
+h2 {
+	margin: 12px auto;
+	font-family: 'Staatliches', cursive;
+	font-size: 20px;
+}
+
+header {
+	margin: 12px auto;
+	background-color: #494E6B;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+ul {
+	margin: 0;
+	padding-left: 450px;
+	padding-right: 300px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #192231;
+}
+
+li {
+	float: left; 
+	border-right: 1px solid #bbb;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 12px 14px;
+	text-align: left;	
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: rgb(143, 10, 44);
+	color: white;
+  }
+
+  li a:hover:not(.active) {
+	background-color: #111;
+	color: white;
+  }
+
+header img {
+    width: 100px; height: 98px;
+	vertical-align: middle;
+	float: left;
+}
+
+main {
+	margin: 0px auto;
+}
+
+h3 {
+	margin: 12px auto;
+}
+
+.weather col {
+	margin: 12px auto;
+	position: relative;
+}
+
+main img {
+	max-width: 85%;
+	height: auto;
+	position: inherit;
+}
+
+h4 {
+	text-decoration: underline;
+}
+.stats {
+	background: rgb(108, 123, 129);
+	border: rgb(5, 2, 2);
+	position: absolute;
+	top: 17rem;
+	right: 68rem;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+	}
+}
+
+	@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+

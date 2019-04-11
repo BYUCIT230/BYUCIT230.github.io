@@ -1,0 +1,16 @@
+body {
+	background-color: #98878F;
+	text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  #div.forecast {
+    display: none;
+  }
+}
+
+.forecast {
+    width: 100%;
+    max-width: 627px;
+    height: auto;
+}
